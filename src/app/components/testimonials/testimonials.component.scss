@@ -1,0 +1,34 @@
+#testimonials {
+    background-color: #f0f4f8;
+  
+    .section-title {
+      font-family: 'Tajawal', sans-serif;
+      font-size: 2.2rem;
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+  
+    .section-subtitle {
+      color: #555;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+  
+    .testimonial-card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+      transition: 0.3s;
+  
+      .testimonial-text {
+        font-size: 1.05rem;
+        color: #333;
+        font-style: italic;
+      }
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+.services-section {
+    background-color: #f8f9fa;
+    
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      .card-title {
+        color: #0D47A1;
+        font-weight: bold;
+      }
+      
+      .card-text {
+        color: #555;
+      }
+  
+      img {
+        object-fit: cover;
+        height: 200px;
+      }
+    }
+  }
+  
